@@ -36,6 +36,8 @@ Calculating the average song duration rounded (2 decimal places) per year. [Tabl
 SELECT year, ROUND(AVG (duration),2) as avg_duration FROM songs
 GROUP BY year;
 ```
+Graph of the average song duration (sec) per year.
+
 ![alt text](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/average_song.png)
 
 As we can see, there are roughly 2 clusters of average song duration. During the late 1920's to mid 1960's the average duration of songs was about 160-200 secs. Starting from the 1970's, song duration increased dramatically ranging on average 230-250 secs. Perhaps as the years increase, we demand longer songs? 
