@@ -12,8 +12,9 @@ In this specific dataset, there are songs with the year value of 0 meaning we ha
 ```
 DELETE FROM songs
 WHERE year = 0;
-SELECT * FROM songs
+SELECT title, artist_name, year, duration FROM songs
 ```
+[Our clean dataset for exploration](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/cleandata.csv)
 ## Variability
 ### Distribution of songs
 Counting the number of songs per year by each unique artist in ascending name order. [Here](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/artist_year.csv)
@@ -37,7 +38,7 @@ GROUP BY year;
 ```
 ![alt text](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/average_song.png)
 
-As we can see, there are roughly 2 clusters of average song duration. During the late 1920's to mid 1960's the average duration of songs was about 160-200 secs. Starting from the 1970's, song duration increased dramatically ranging on average 230-250 secs. Perhaps as the generation increases, we demand longer songs? 
+As we can see, there are roughly 2 clusters of average song duration. During the late 1920's to mid 1960's the average duration of songs was about 160-200 secs. Starting from the 1970's, song duration increased dramatically ranging on average 230-250 secs. Perhaps as the years increase, we demand longer songs? 
 
 ## Reference
 Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. 
