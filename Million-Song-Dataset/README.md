@@ -35,6 +35,7 @@ Calculating the average song duration rounded (2 decimal places) per year
 SELECT year, ROUND(AVG (duration),2) as avg_duration FROM songs
 GROUP BY year;
 ```
+![alt text](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/average_song.png)
 
 ## Reference
 Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. 
