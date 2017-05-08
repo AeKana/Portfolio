@@ -16,7 +16,7 @@ SELECT * FROM songs
 ```
 ## Variability
 ### Distribution of songs
-Counting the number of songs per year by each unique artist in ascending name order.
+Counting the number of songs per year by each unique artist in ascending name order. [Here](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/artist_year.csv)
 
 ```
 SELECT artist_name, year, COUNT (*) songs_count FROM songs
