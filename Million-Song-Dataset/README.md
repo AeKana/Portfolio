@@ -16,20 +16,20 @@ SELECT * FROM songs
 ```
 ## Variability
 ### Distribution of songs
-Counting the number of songs per year by each unique artist in ascending name order
+Counting the number of songs per year by each unique artist in ascending name order.
 
 ```
 SELECT artist_name, year, COUNT (*) songs_count FROM songs
 GROUP BY artist_name, year
 ORDER BY artist_name ASC;
 ```
-Counting the song duration (secs) in each year by artist 
+Counting the song duration (secs) in each year by artist.
 
 ```
 SELECT artist_name, title, year, duration FROM songs
 GROUP BY artist_name, year, duration;
 ```
-Calculating the average song duration rounded (2 decimal places) per year
+Calculating the average song duration rounded (2 decimal places) per year.
 
 ```
 SELECT year, ROUND(AVG (duration),2) as avg_duration FROM songs
