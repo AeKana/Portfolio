@@ -17,20 +17,20 @@ SELECT title, artist_name, year, duration FROM songs
 [Our clean dataset for exploration with our 4 variables](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/cleandata.csv)
 ## Variability
 ### Distribution of songs
-Counting the number of songs per year by each unique artist in ascending name order. [Here](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/artist_year.csv)
+Counting the number of songs per year by each unique artist in ascending name order. [Table](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/artist_year.csv)
 
 ```
 SELECT artist_name, year, COUNT (*) songs_count FROM songs
 GROUP BY artist_name, year
 ORDER BY artist_name ASC;
 ```
-Showing the song and duration (secs) in each year by artist. [Here](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/artist_duration.csv)
+Showing the song and duration (secs) in each year by artist. [Table](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/artist_duration.csv)
 
 ```
 SELECT artist_name, title, year, duration FROM songs
 GROUP BY artist_name, year, duration;
 ```
-Calculating the average song duration rounded (2 decimal places) per year. [Here](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/avg_song.csv)
+Calculating the average song duration rounded (2 decimal places) per year. [Table](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/avg_song.csv)
 
 ```
 SELECT year, ROUND(AVG (duration),2) as avg_duration FROM songs
