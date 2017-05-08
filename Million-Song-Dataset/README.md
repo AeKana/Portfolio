@@ -23,7 +23,7 @@ SELECT artist_name, year, COUNT (*) songs_count FROM songs
 GROUP BY artist_name, year
 ORDER BY artist_name ASC;
 ```
-Counting the song duration (secs) in each year by artist.
+Showing the song and duration (secs) in each year by artist. [Here](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/artist_duration.csv)
 
 ```
 SELECT artist_name, title, year, duration FROM songs
