@@ -14,7 +14,7 @@ DELETE FROM songs
 WHERE year = 0;
 SELECT title, artist_name, year, duration FROM songs
 ```
-[Our clean dataset for exploration](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/cleandata.csv)
+[Our clean dataset for exploration with our 4 variables](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/cleandata.csv)
 ## Variability
 ### Distribution of songs
 Counting the number of songs per year by each unique artist in ascending name order. [Here](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/artist_year.csv)
