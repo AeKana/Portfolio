@@ -29,7 +29,7 @@ Counting the song duration (secs) in each year by artist.
 SELECT artist_name, title, year, duration FROM songs
 GROUP BY artist_name, year, duration;
 ```
-Calculating the average song duration rounded (2 decimal places) per year. [Shown Here](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/avg_song.csv)
+Calculating the average song duration rounded (2 decimal places) per year. [Here](https://github.com/AeKana/Portfolio/blob/master/Million-Song-Dataset/avg_song.csv)
 
 ```
 SELECT year, ROUND(AVG (duration),2) as avg_duration FROM songs
