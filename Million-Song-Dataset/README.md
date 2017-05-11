@@ -43,6 +43,6 @@ Graph of the average song duration (sec) per year.
 As we can see, there are roughly 2 clusters of average song duration. During the late 1920's to mid 1960's the average duration of songs was about 160-200 secs. Starting from the 1970's, song duration increased dramatically ranging on average 230-250 secs. Perhaps as the years increase, we demand longer songs? 
 
 ## Reference
-Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. 
+- Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. 
 The Million Song Dataset. In Proceedings of the 12th International Society
 for Music Information Retrieval Conference (ISMIR 2011), 2011.
