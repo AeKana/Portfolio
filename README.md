@@ -6,4 +6,3 @@ Programming is a skill I think most people should learn in any field by practici
 
 In particular, the data collection phase in most modern psychological research studies has largely become computerised, thus many of the methods and tasks used to collect data are created using software through a graphical user interface (GUI). Furthermore, programming languages can offer both graphical and statistical analysis of data, making it a popular choice when it comes to presenting and visualizing data results. [My previous repository demonstrates the collection of data through a GUI and displays the results](https://github.com/AeKana/MATLAB). 
 
-I hope to expand my programming skillset and knowledge to other career fields while bringing in my insights in regards to Psychology.
