@@ -6,6 +6,10 @@
 
 [Homepage source](http://www.kaggle.com/c/titanic-gettingStarted)
 
+<p align="center">
+  <img src="https://github.com/AeKana/Portfolio/blob/master/Titanic-Dataset/titanic.jpg"/>
+</p>
+
 This ia a simple analysis of the Titanic disaster in Python using various PyData utilities. 
 This notebook will show basic examples of data analysis including:
 
